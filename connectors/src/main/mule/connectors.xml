@@ -24,6 +24,6 @@ http://www.mulesoft.org/schema/mule/vm http://www.mulesoft.org/schema/mule/vm/cu
 	</flow>
 	<flow name="connectorsFlow2" doc:id="342223ba-5e54-40b8-94f1-d3a432cfcc7c" >
 		<vm:listener queueName="MyQ" doc:name="Listener" doc:id="41e30d9f-61aa-429c-a17b-419e9d5077b2" config-ref="VM_Config"/>
-		<logger level="INFO" doc:name="Logger" doc:id="5835d1ee-e9c9-4fa5-b46c-d9f00a4b347a" message="#[payload]"/>
+		<logger level="INFO" doc:name="Logger" doc:id="5835d1ee-e9c9-4fa5-b46c-d9f00a4b347a" message="hi"/>
 	</flow>
 </mule>
